@@ -1,0 +1,6 @@
+name: Rip
+version: '${version}'
+main: com.github.jenya705.rip.Rip
+api-version: 1.18
+authors: [ Jenya705 ]
+description: Rip plugin

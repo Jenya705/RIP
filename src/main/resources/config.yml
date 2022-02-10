@@ -1,0 +1,25 @@
+chest-despawn-time: 10s
+location-notify-time: 1s
+death-notify-time: 5s
+
+spawn-sign: true
+
+# Trying to not replace blocks
+# It will replace blocks if not any air found in radius
+try-not-to-replace: true
+trying-radius: 5
+
+# Custom model data of key for chests
+# Changing it will cause loss of all keys
+custom-model-data: 255566
+
+location-notify-message: '&6{0} &achest is located on {4}: ({1} {2} {3})'
+
+# Database configuration
+sql:
+  # mysql, sqlite
+  type: sqlite
+  host: localhost:3306
+  user: root
+  password: '1'
+  database: minecraft
