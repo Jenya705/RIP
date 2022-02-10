@@ -1,6 +1,6 @@
-chest-despawn-time: 10s
-location-notify-time: 1s
-death-notify-time: 5s
+chest-despawn-time: 10m
+location-notify-time: 1m
+death-notify-time: 5m
 
 spawn-sign: true
 
